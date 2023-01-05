@@ -1,7 +1,5 @@
-import { memo, FC} from "react"
+import { memo, FC } from "react";
 
-export const Home:FC = memo(() => {
-  return (
-    <p>Home page</p>
-  )
-})
+export const Home: FC = memo(() => {
+  return <p>Home page</p>;
+});
